@@ -1,6 +1,14 @@
 # Traffic 
 
-### Convolution Neutral Network to categorize roadsigns using GTSRB dataset
+### Usage: 
+
+- git clone https://github.com/prithvijitguha/TrafficSignAI.git
+- pip3 install -r requirements.txt
+- Usage: python traffic.py "path/to/dataset" optional: "filename to save model"
+
+
+
+### Convolution Neutral Network to categorize roadsigns using GTSRB dataset for cs50 AI Project "Traffic"
 
 | Model       | Model Description  | Accuracy |
 | :---------  |:-------------: |--------:|
@@ -37,6 +45,4 @@ Highest results were achieved with a combination of 2/3 convolution layers with 
 
 
          
-      
-## Acknowledgement
-Data provided by J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. The German Traffic Sign Recognition Benchmark: A multi-class classification competition. In Proceedings of the IEEE International Joint Conference on Neural Networks, pages 1453–1460. 2011
+     
